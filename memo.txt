@@ -2,7 +2,7 @@ export TDD_PROJECT_ROOT=/usr/src/tdd-project
 export GO111MODULE="on"
 export GOPATH=""
 
-go test -v .
+go test -v ./...
 go fmt ./...
 
 
