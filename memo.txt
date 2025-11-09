@@ -1,0 +1,10 @@
+export TDD_PROJECT_ROOT=/usr/src/tdd-project
+export GO111MODULE="on"
+export GOPATH=""
+
+go test -v .
+go fmt ./...
+
+
+node js/test_money.js
+python3 py/test_money.py -v
