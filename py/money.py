@@ -9,3 +9,6 @@ class Money:
 
   def divide(self, divisor):
     return Money(self.amount / divisor, self.currency)
+
+  def __str__(self): 
+    return f"{self.currency} {self.amount:0.2f}"
