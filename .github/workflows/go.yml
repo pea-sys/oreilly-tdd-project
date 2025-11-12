@@ -19,8 +19,8 @@ jobs:
       uses: actions/checkout@v2
     - name: Test
       run: | 
-        export GO111MODULE="on" 
+        export GO111MODULE="on"
         export GOPATH="" 
-        cd go 8
+        cd go
         go test -v ./...
       shell: bash
